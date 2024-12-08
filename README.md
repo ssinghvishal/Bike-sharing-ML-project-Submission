@@ -31,13 +31,13 @@ Exploratory Data Analysis (EDA):
 
 Analyzed the relationship between bike demand and weather, season, and time.
 Visualized trends using colorful and informative plots.
-# Feature Engineering:
+### Feature Engineering:
 
 Generated additional features like day-of-week and time-of-day segments.
 Addressed multicollinearity between features, e.g., temperature and dew point temperature.
 Model Building and Evaluation:
 
-# Experimented with various models:
+### Experimented with various models:
 Linear Regression
 Decision Tree
 Random Forest
@@ -55,7 +55,7 @@ High demand during morning and evening rush hours.
 Low demand during winters; peak demand in June.
 Removing outliers reduced model accuracy.
 
-# Key libraries:
+### Key libraries:
 
 pandas
 numpy
@@ -64,7 +64,7 @@ seaborn
 scikit-learn
 xgboost
 
-#Conclusion
+# Conclusion
 This project demonstrates the power of machine learning in solving real-world problems like predicting bike demand. It highlights the importance of data preprocessing, feature engineering, and model optimization. The insights from this project can guide better management of bike-sharing systems in urban environments.
 
 
