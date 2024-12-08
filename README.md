@@ -1,13 +1,13 @@
 # Bike-sharing-ML-project-Submission
 Bike-Sharing ML Project Submission
-Project Overview
+# Project Overview
 This project aims to predict bike demand in Seoul using machine learning techniques. The objective is to enable better management of bike-sharing systems by accurately forecasting user demand based on various factors, including weather, time, and seasonal trends.
 
-Dataset
+# Dataset
 Dataset Name: SeoulBikeData.csv
 The dataset contains information on hourly bike rentals in Seoul along with attributes such as date, weather conditions, temperature, and holidays.
 
-Key features include:
+# Key features include:
 
 Date: The specific day of observation.
 Hour: The hour of the day.
@@ -21,8 +21,8 @@ Snowfall (cm): Snow accumulation during the hour.
 Holiday: Whether the day was a holiday.
 Season: Categorization into seasons.
 Methodology
-Steps Taken:
-Data Preprocessing:
+## Steps Taken:
+### Data Preprocessing:
 
 Handling missing values and outliers.
 Feature encoding for categorical variables.
@@ -31,13 +31,13 @@ Exploratory Data Analysis (EDA):
 
 Analyzed the relationship between bike demand and weather, season, and time.
 Visualized trends using colorful and informative plots.
-Feature Engineering:
+# Feature Engineering:
 
 Generated additional features like day-of-week and time-of-day segments.
 Addressed multicollinearity between features, e.g., temperature and dew point temperature.
 Model Building and Evaluation:
 
-Experimented with various models:
+# Experimented with various models:
 Linear Regression
 Decision Tree
 Random Forest
@@ -55,7 +55,7 @@ High demand during morning and evening rush hours.
 Low demand during winters; peak demand in June.
 Removing outliers reduced model accuracy.
 
-Key libraries:
+# Key libraries:
 
 pandas
 numpy
@@ -64,7 +64,7 @@ seaborn
 scikit-learn
 xgboost
 
-Conclusion
+#Conclusion
 This project demonstrates the power of machine learning in solving real-world problems like predicting bike demand. It highlights the importance of data preprocessing, feature engineering, and model optimization. The insights from this project can guide better management of bike-sharing systems in urban environments.
 
 
